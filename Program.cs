@@ -8,7 +8,7 @@ namespace ConsoleHelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Int32 i=5,j = 15;
+            Int32 i=6,j = 15;
             Int32 k = i + j;
 
             
