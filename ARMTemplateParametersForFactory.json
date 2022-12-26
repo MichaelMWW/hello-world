@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "ChinaAdfDevTest"
+        },
+        "LS_ASQL_ChinaCommercialBAI_connectionString": {
+            "value": "Integrated Security=False;Encrypt=True;Connection Timeout=60;Data Source=chinacommercialbai-server-sbx.database.chinacloudapi.cn;Initial Catalog=ChinaCommercialBAIDbSBX"
+        },
+        "LS_ASYN_ChinaDataLake_connectionString": {
+            "value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=china-server-test.database.chinacloudapi.cn;Initial Catalog=ChinaSQLPoolTest"
+        },
+        "LS_REST_Event_password": {
+            "value": ""
+        },
+        "LS_SFTP_ChinaDataLake_password": {
+            "value": ""
+        },
+        "MA_data_storage_accountKey": {
+            "value": ""
+        },
+        "LS_ADLS_ChinaDataLake_properties_typeProperties_url": {
+            "value": "https://chinastorageaccounttest.dfs.core.chinacloudapi.cn"
+        },
+        "LS_REST_Event_properties_typeProperties_url": {
+            "value": "https://vep-rest.eventsystem.cn"
+        },
+        "LS_REST_Event_properties_typeProperties_userName": {
+            "value": "viatris"
+        },
+        "LS_SFTP_ChinaDataLake_properties_typeProperties_host": {
+            "value": "chinafta1.viatris.com"
+        },
+        "LS_SFTP_ChinaDataLake_properties_typeProperties_userName": {
+            "value": "datalake@viatrissvcacc.com"
+        },
+        "MA_Rest_properties_typeProperties_url": {
+            "value": "http://58.213.112.90:25309/apiDocpolicyJobs/getDocpolicy"
+        },
+        "MA_data_storage_properties_typeProperties_url": {
+            "value": "https://chinastorageaccounttest.dfs.core.chinacloudapi.cn"
+        }
+    }
+}
